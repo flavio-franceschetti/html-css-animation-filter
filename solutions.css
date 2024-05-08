@@ -90,3 +90,19 @@
   border-radius: 20px;
   transform: scale(1.5);
 }
+
+/* ESERCIZIO 10 */
+
+.ex-10-icon {
+  animation: rotating 0.8s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
