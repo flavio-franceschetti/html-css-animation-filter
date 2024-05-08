@@ -94,15 +94,35 @@
 /* ESERCIZIO 10 */
 
 .ex-10-icon {
-  animation: rotating 0.8s linear infinite;
+  animation: ex-10-move 0.8s linear infinite;
 }
 
-@keyframes rotating {
+@keyframes ex-10-move {
   from {
     transform: rotate(0deg);
   }
 
   to {
     transform: rotate(-360deg);
+  }
+}
+
+/* ESERCIZIO 11 */
+
+.ex-11-icon:hover {
+  animation: ex-11-move 2s linear;
+}
+
+@keyframes ex-11-move {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  80% {
+    transform: rotate(300deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
   }
 }
