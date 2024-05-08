@@ -130,14 +130,14 @@
 /* ESERCIZIO 12 */
 
 .ex-12-button:hover .ex-12-top-white {
-  animation: top-white 2s linear;
+  animation: top-white-12 2s linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-  animation: bottom-white 2s linear;
+  animation: bottom-white-12 2s linear;
 }
 
-@keyframes top-white {
+@keyframes top-white-12 {
   0% {
     top: -10;
     left: 10%;
@@ -154,7 +154,7 @@
   }
 }
 
-@keyframes bottom-white {
+@keyframes bottom-white-12 {
   0% {
     bottom: -10;
     right: 20%;
@@ -168,5 +168,79 @@
   100% {
     bottom: -10;
     right: 20%;
+  }
+}
+
+/* ESERCIZIO 13 */
+
+.ex-13-button:hover .ex-13-top-white {
+  animation: top-white-13 2s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: bottom-white-13 2s linear;
+}
+
+@keyframes top-white-13 {
+  0% {
+    top: -10px;
+    left: 10%;
+  }
+
+  30% {
+    top: -10%;
+    left: 85%;
+  }
+
+  45% {
+    top: 55px;
+    left: 85%;
+  }
+
+  75% {
+    top: 55px;
+    left: -11%;
+  }
+
+  90% {
+    top: -10%;
+    left: -2%;
+  }
+
+  100% {
+    top: -10px;
+    left: 10%;
+  }
+}
+
+@keyframes bottom-white-13 {
+  0% {
+    bottom: -10px;
+    right: 10%;
+  }
+
+  30% {
+    bottom: -10%;
+    right: 85%;
+  }
+
+  45% {
+    bottom: 55px;
+    right: 85%;
+  }
+
+  75% {
+    bottom: 55px;
+    right: -11%;
+  }
+
+  90% {
+    bottom: -10%;
+    right: -2%;
+  }
+
+  100% {
+    bottom: -10px;
+    right: 10%;
   }
 }
